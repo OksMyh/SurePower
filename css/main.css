@@ -1,0 +1,118 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font: 400 14px/1.5 Hind, sans-serif;
+    color: #565655;
+}
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+/**********HEADER**********/
+
+/********** BLOCK-1**********/
+
+.block1 {
+    background-color: #ededed;
+    padding: 11px 103px 14px 139px;
+}
+.contact-inf {
+    float: left;
+}
+.contact-inf div {
+    display: inline-block;
+    margin-right: 32px;
+}
+.contact-inf  span i {
+    display: inline-block;
+    font-size: 22px;
+}
+.town span {
+    background-color: #212121;
+    color: #fff;
+    border-radius: 3px;
+}
+.social-icon {
+    float: right;
+}
+.social-icon ul li {
+    margin-left: 20px;
+}
+.social-icon ul {
+    margin: 9px 41px 0 0;
+}
+.fa-phone,
+.fa-location-arrow {
+    color: #000;
+    padding-right: 3px;
+}
+.town {
+    background: #212121;
+    color: #fff;
+    border-radius: 3px;
+    padding: 2px 12px 5px 14px;
+}
+.fa-angle-down{
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+/**********BLOCK-2**********/
+
+.block2 div {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    float: left;
+    padding: 30px 0 0 132px;
+}
+.static {
+    float: right;
+    padding: 46px 139px 0 0;
+}
+.static-inf:nth-child(2) {
+    border-right: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    padding: 0 3px 7px 0;
+}
+.static-inf:first-child {
+    padding-right: 40px;
+}
+.static-inf div {
+    display: inline-block;
+    height: 100%;
+}
+.check {
+    font-size: 20px;
+    padding: 0 8px 0 17px;
+}
+.title {
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+}
+.subtitle {
+    color: #7a7a7a;
+    font-family: 'MyriadPro', sans-serif;
+    margin: 0;
+    padding-left: 1px;
+}
