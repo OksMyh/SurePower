@@ -25,10 +25,14 @@ a {
     text-decoration: none;
     color: #333;
 }
+
 /**********HEADER**********/
 
 /********** BLOCK-1**********/
 
+header {
+    position: relative;
+}
 .block1 {
     background-color: #ededed;
     padding: 11px 103px 14px 139px;
@@ -77,6 +81,9 @@ a {
 
 /**********BLOCK-2**********/
 
+.block2 {
+    margin-bottom: 27px;
+}
 .block2 div {
     display: inline-block;
     vertical-align: top;
@@ -116,3 +123,87 @@ a {
     margin: 0;
     padding-left: 1px;
 }
+
+/**********BLOCK-3(NAVIGATION)**********/
+
+nav {
+    width: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    position: absolute;
+    bottom: -99px;
+    left: 0;
+}
+.nav-bar {
+    color: #fff;
+    padding: 28px 30px 30px 0;
+    display: inline-block;
+    float: left;
+    font-size: 17px;
+    line-height: 12px;
+    font-family: "MyriadPro", sans-serif;
+}
+.nav-bar:first-child {
+    margin-left: 142px;
+}
+.search {
+    float: right;
+    width: 10%;
+    margin: 24px 26px 0 0;
+}
+.nav-bar:hover {
+    border-bottom: 5px solid #bd2631;
+}
+
+/**********MAIN**********/
+
+/**********BLOCK-3**********/
+
+.block3 {
+    background: #000 url(../img/a.png) right 0 no-repeat;
+}
+.button-left {
+    display: inline-block;
+    float: left;
+    background: transparent url(../img/button-left.png) center bottom / contain no-repeat;
+    -webkit-background-size: 23px;
+    background-size: 23px;
+    padding: 357px 138px 14px 0px;
+    border: 1px solid transparent;
+    outline: none;
+}
+.button-right {
+    display: inline-block;
+    float: right;
+    background: transparent url(../img/button-right.png) center center / contain no-repeat;
+    -webkit-background-size: 23px;
+    background-size: 23px;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 699px 57px 0 0;
+}
+.block3-1 {
+    display: inline-block;
+    float: left;
+}
+.block3-1-1 {
+    color: #bd2631;
+    margin: 295px 0 0 -5px;
+    font-size: 32px;
+    line-height: 24px;
+}
+.block3-1-2 {
+    color: #fff;
+    margin: 23px 0 24px -6px;
+    font-size: 42px;
+    line-height: 24px;
+}
+.block3-1-3 {
+    color: #fff;
+    margin: 0 151px 0 -3px;
+    font-family: "MyriadPro", sans-serif;
+    font-size: 24px;
+    word-spacing: 5px;
+    line-height: 18px;
+}
+
