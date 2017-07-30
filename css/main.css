@@ -424,36 +424,64 @@ nav li a:hover {
 .block12 {
     background-color: #242424;
     display: flex;
-    padding: 0 170px 0 150px;
+    padding: 0 12em 3.89em 10.79em;
 }
 .block12-1,
 .block12-2,
 .block12-3,
 .block12-4 {
     border-right: 1px solid #353535;
-    margin: 60px 0 0 20px;
-    width: 21%;
+    margin: 4.29em 0 0 1.5em;
+    padding: 0 1.58em 0 0;
+    width: 23%;
 }
-.block12-2,
 .block12-4 {
     border-right: 1px solid transparent;
 }
-.block11-1-1 {
+.block12-1-1 {
     color: #bd2631;
-    font-size: 1.3em;
+    font-size: 1.29em;
     line-height: 1.7em;
-    margin: 0 0 1.69em 0;
+    margin: 0 0 1.39em 0;
 }
-.block11-1-2 {
+.block12-1-2 {
     color: #fff;
-    font-size: 0.86em;
-    line-height: 16px;
-    padding: 12px 0 0 0;
+    font-size: 0.857em;
+    line-height: 1.4em;
+    margin: 0 0 1.39em 0;
 }
-.block11-4-1 {
+.block12-4-1 {
     color: #bd2631;
     font-family: "MyriadPro", sans-serif;
     font-size: 12px;
     line-height: 16px;
     margin: 0 10px;
 }
+
+/***********BLOCK-13***********/
+
+
+.block13 {
+    background-color: #131313;
+    padding: 2.29em 11.2em 1.7em 12.27em;
+}
+.block13-1,
+.block13-2 {
+    color: #fff;
+    font-size: 0.86em;
+    font-weight: normal;
+    line-height: 2.4em;
+    margin: 0;
+    display: inline-block;
+}
+.block13-1 {
+    float: left;
+}
+.block13-2 {
+    float: right;
+}
+
+/**********THE END**********/
+
+
+/**********RESPONSIVE**********/
