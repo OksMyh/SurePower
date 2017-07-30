@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font: 400 14px/1.5 Hind, sans-serif;
+    font: 400 0.875em/1.5 Hind, sans-serif;
     color: #565655;
 }
 .clearfix:after,
@@ -17,6 +17,7 @@ body {
 }
 ul{
     list-style: none;
+    margin: 0;
 }
 ul li {
     display: inline-block;
@@ -42,7 +43,17 @@ header {
 }
 .contact-inf div {
     display: inline-block;
-    margin-right: 32px;
+    margin-right: 30px;
+}
+.town {
+    background: #212121;
+    color: #fff;
+    border-radius: 3px;
+    padding: 2px 11px 6px 14px;
+}
+.phone,
+.adress {
+    font-family: MyriadPro, sans-serif;
 }
 .contact-inf  span i {
     display: inline-block;
@@ -67,12 +78,6 @@ header {
     color: #000;
     padding-right: 3px;
 }
-.town {
-    background: #212121;
-    color: #fff;
-    border-radius: 3px;
-    padding: 2px 12px 5px 14px;
-}
 .fa-angle-down{
     margin-left: 15px;
     font-size: 18px;
@@ -82,7 +87,7 @@ header {
 /**********BLOCK-2**********/
 
 .block2 {
-    margin-bottom: 27px;
+    margin-bottom: 25px;
 }
 .block2 div {
     display: inline-block;
@@ -94,15 +99,15 @@ header {
 }
 .static {
     float: right;
-    padding: 46px 139px 0 0;
+    padding: 46px 140px 0 0;
 }
 .static-inf:nth-child(2) {
     border-right: 1px solid #e6e6e6;
     border-left: 1px solid #e6e6e6;
-    padding: 0 3px 7px 0;
+    padding-right: 4px;
 }
 .static-inf:first-child {
-    padding-right: 40px;
+    padding-right: 37px;
 }
 .static-inf div {
     display: inline-block;
@@ -126,33 +131,37 @@ header {
 
 /**********BLOCK-3(NAVIGATION)**********/
 
-nav {
+
+.navigation {
     width: 100%;
+    padding: 0 83px;
     background-color: #000;
     opacity: 0.8;
     position: absolute;
-    bottom: -99px;
+    bottom: -97px;
     left: 0;
 }
-.nav-bar {
-    color: #fff;
-    padding: 28px 30px 30px 0;
-    display: inline-block;
+nav  {
     float: left;
-    font-size: 17px;
-    line-height: 12px;
-    font-family: "MyriadPro", sans-serif;
 }
-.nav-bar:first-child {
-    margin-left: 142px;
+nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 26px 17px 18px 13px;
+    display: inline-block;
+    font-family: "MyriadPro", sans-serif;
+    border-bottom: 7px solid transparent;
+}
+.nav-bar a {
+    border-bottom: 7px solid #bd2631;
+    padding-left: 20px;
+}
+nav li a:hover {
+    border-bottom: 7px solid #bd2631;
 }
 .search {
     float: right;
-    width: 10%;
-    margin: 24px 26px 0 0;
-}
-.nav-bar:hover {
-    border-bottom: 5px solid #bd2631;
+    padding: 26px 64px 0 0;
 }
 
 /**********MAIN**********/
@@ -165,45 +174,286 @@ nav {
 .button-left {
     display: inline-block;
     float: left;
-    background: transparent url(../img/button-left.png) center bottom / contain no-repeat;
+    background: transparent url(../img/button-left.png) center bottom /contain no-repeat;
     -webkit-background-size: 23px;
     background-size: 23px;
-    padding: 357px 138px 14px 0px;
+    padding: 357px 138px 14px 0;
     border: 1px solid transparent;
     outline: none;
 }
 .button-right {
+
     display: inline-block;
     float: right;
-    background: transparent url(../img/button-right.png) center center / contain no-repeat;
+    background: transparent url(../img/button-right.png) center 331px /contain no-repeat;
     -webkit-background-size: 23px;
     background-size: 23px;
     border: 1px solid transparent;
     outline: none;
-    padding: 699px 57px 0 0;
+    padding: 300px 57px 340px 0;
 }
 .block3-1 {
     display: inline-block;
     float: left;
+    font-family: 'MyriadPro', sans-serif;
 }
 .block3-1-1 {
     color: #bd2631;
-    margin: 295px 0 0 -5px;
-    font-size: 32px;
+    margin: 295px 0 0 -4px;
+    font-size: 31px;
     line-height: 24px;
 }
 .block3-1-2 {
     color: #fff;
-    margin: 23px 0 24px -6px;
-    font-size: 42px;
+    margin: 24px 0 24px -7px;
+    font-size: 43px;
     line-height: 24px;
+    font-family: 'Hind', sans-serif;
 }
 .block3-1-3 {
     color: #fff;
-    margin: 0 151px 0 -3px;
-    font-family: "MyriadPro", sans-serif;
+    margin: 0 151px 0 -7px;
+    font-family: "Hind", sans-serif;
     font-size: 24px;
-    word-spacing: 5px;
+    word-spacing: -1px;
     line-height: 18px;
 }
 
+/***********BLOCK-4***********/
+
+.block4 {
+    background-color: #bd2631;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+}
+.block4-1 {
+    margin: 28px 0 32px 141px;
+}
+.block4-1-1 {
+    color: #efd4d5;
+    margin: 0 0 -6px;
+    font-size: 30px;
+    word-spacing: 2px;
+    font-family: "Myriad Pro", sans-serif;
+}
+.block4-1-2 {
+    color: #efd4d5;
+    margin: 0;
+    font-size: 24px;
+    word-spacing: -1px;
+    line-height: 30px;
+}
+.button-1 {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 0 27px;
+    margin: 40px 0 39px 299px;
+    font-weight: bold;
+}
+
+/**********BLOCK-5 (em)**********/
+
+
+.block5,
+.block6,
+.block7 {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+}
+.block5-1 {
+    background: #000 url(../img/b.png) 0 0/cover no-repeat;
+}
+.products {
+    color: #bd2631;
+    font-size: 2.15em;
+}
+.products-inf {
+    color: #fff;
+    line-height: 2.143em;
+}
+.block5-1-1 {
+    margin: 5.14em 0 0 3.3em;
+}
+.block5-1-2 {
+    margin: 2em 7em 9.7em 7.29em;
+}
+.block5-2 {
+    background: #000 url(../img/c.png) 0 0/cover no-repeat;
+    padding: 0 12.7em;
+}
+.block5-3 {
+    background: #fff url(../img/d.png) 7em 12.3em no-repeat;
+    padding: 0 0 0 23.92em;
+}
+
+/***********BLOCK-6**********/
+
+
+.block6-1 {
+    background: #000 url(../img/f.png) 0 0/cover no-repeat;
+    padding: 16.1em 12.7em;
+}
+.block6-2 {
+    background: #fff url(../img/e.png) 7.3em 10.7em no-repeat;
+    padding: 0 12.6em;
+}
+.block6-3 {
+    background: #000 url(../img/g.png) 0 0/cover no-repeat;
+    padding: 8.5em 6.5em 0 7.4em;
+}
+
+/**********BLOCK-7***********/
+
+
+.block7-1 {
+    background: #000 url(../img/h.png) 0 0/100% no-repeat;
+    padding: 9em 5.8em 10.7em 8.4em;
+}
+.block7-2 {
+    background: #bd2631 url(../img/i.png) 8.9em 10.6em no-repeat;
+    padding: 0 12.72em;
+}
+.block7-3 {
+    background: #000 url(../img/j.png) 0 0/100% 100% no-repeat;
+    padding: 0 11.92em;
+}
+
+/***********BLOCK-8**********/
+
+.block8 div {
+    display: inline-block;
+    text-align: center;
+    line-height: 2.2em;
+    padding: 16.4em 0 7.2em 5.79em;
+}
+.safe {
+    background: url(../img/n.png) 17.39em 6.5em no-repeat,
+                url(../img/k.png) 16em 3.5em no-repeat;
+    float: left;
+}
+.green {
+    background: url(../img/l.png) 14.9em 4.7em no-repeat;
+    float: left;
+}
+.block8 .ready {
+    background: url(../img/o.png) 11.8em 7em  no-repeat,
+                url(../img/m.png) 8.2em 4em  no-repeat;
+    float: right;
+    padding: 16.65em 4.59em 7em 0;
+}
+.more-inf-1 {
+    color: #bd2631;
+    font-size: 2.57em;
+    margin: 0;
+}
+.more-inf-2 {
+    color: #000;
+    font-size: 1.296em;
+    margin: 0.699em 0 0 0;
+}
+
+/***********BLOCK-9***********/
+
+
+.block9 {
+    width: 100%;
+    background: url(../img/p.png)  right 0  no-repeat,
+                url(../img/q.png)  23.39em 3.9em  no-repeat,
+                url(../img/r.png)  0 0  no-repeat;
+}
+.block9-1 {
+    color: #fff;
+    font-size: 2.57em;
+    line-height: 0.8em;
+    font-weight: normal;
+    margin: 0;
+    padding: 2.4em 0 2.19em 18.5em;
+}
+
+/***********BLOCK-10***********/
+
+
+.block10-1,
+.block10-2,
+.block11 {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+}
+.block10-2 {
+    background-color: #bd2631;
+    color: #fff;
+}
+.block10-2-1 {
+    font-size: 1.29em;
+    line-height: 1.7em;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 1.2em 0 1.1em 0;
+}
+.block10-2-1:first-child {
+    margin: 0 0.3em 0 1.79em;
+}
+
+/**********BLOCK-11**********/
+
+
+.block11 {
+    padding: 4.9em 0 5.1em 13.5em;
+}
+.block11-1:nth-child(2) {
+    padding-left: 6em;
+    padding-right: 7em;
+}
+.block11-1:nth-child(4) {
+    padding-left: 4.6em;
+    padding-right: 4.5em;
+}
+
+/**********FOOTER**********/
+
+/**********BLOCK-12**********/
+
+.block12 {
+    background-color: #242424;
+    display: flex;
+    padding: 0 170px 0 150px;
+}
+.block12-1,
+.block12-2,
+.block12-3,
+.block12-4 {
+    border-right: 1px solid #353535;
+    margin: 60px 0 0 20px;
+    width: 21%;
+}
+.block12-2,
+.block12-4 {
+    border-right: 1px solid transparent;
+}
+.block11-1-1 {
+    color: #bd2631;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    margin: 0 0 1.69em 0;
+}
+.block11-1-2 {
+    color: #fff;
+    font-size: 0.86em;
+    line-height: 16px;
+    padding: 12px 0 0 0;
+}
+.block11-4-1 {
+    color: #bd2631;
+    font-family: "MyriadPro", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 10px;
+}
