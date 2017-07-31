@@ -382,35 +382,53 @@ nav li a:hover {
 
 /***********BLOCK-8**********/
 
+.block8 {
+    padding-left: 3.1em;
+    padding-right: 2em;
+    height: 462px;
+    box-sizing: content-box;
+}
 .block8 div {
     display: inline-block;
     text-align: center;
     line-height: 2.2em;
-    padding: 16.4% 0 7.2% 6%;
+    width: 33.3%;
+    box-sizing: content-box;
+    word-spacing: 0.1px;
 }
 .safe {
-    background: url(../img/n.png) 63.6% 22% no-repeat,
-                url(../img/k.png) 64% 15% no-repeat;
+    background: url(../img/n.png) 53.5% 29.5% no-repeat,
+                url(../img/k.png) 53.2% 22% no-repeat;
     float: left;
+}
+.safe h2 {
+    padding-bottom: 0.3em;
 }
 .green {
-    background: url(../img/l.png) 61% 20% no-repeat;
+    background: url(../img/l.png) 55.9% 29% no-repeat;
     float: left;
+}.green h2 {
+     padding-left: 1em;
+ }
+.green p {
+    padding-left: 2em;
 }
 .block8 .ready {
-    background: url(../img/o.png) 43.5% 23%  no-repeat,
-                url(../img/m.png) 39% 18%  no-repeat;
+    background: url(../img/o.png) 52% 29.9% no-repeat,
+                url(../img/m.png) 49.5% 24.8% no-repeat;
     float: right;
-    padding: 16.5% 4.5% 7% 0;
 }
 .more-inf-1 {
     color: #bd2631;
     font-size: 2.57em;
     margin: 0;
+    padding-top: 6.4em;
+    padding-bottom: 0.5em;
 }
 .more-inf-2 {
     color: #000;
     font-size: 1.296em;
+    margin: 0;
 }
 
 /***********BLOCK-9***********/
@@ -418,6 +436,7 @@ nav li a:hover {
 
 .block9 {
     width: 100%;
+    height: 195px;
     background: url(../img/p.png)  right 0  no-repeat,
                 url(../img/q.png)  23.39em 3.9em  no-repeat,
                 url(../img/r.png)  0 0  no-repeat;
@@ -428,7 +447,7 @@ nav li a:hover {
     line-height: 0.8em;
     font-weight: normal;
     margin: 0;
-    padding: 2.4em 0 2.19em 18.5em;
+    padding: 2.5em 0 2.14em 18.5em;
 }
 
 /***********BLOCK-10***********/
@@ -442,21 +461,22 @@ nav li a:hover {
     display: -moz-flex;
 }
 .block10-1 div {
-    padding: 12.58% 10%;
+    width: 20%;
+    height: 352px;
 }
 .block10-2 {
     background-color: #bd2631;
     color: #fff;
+    height: 73px;
+    padding-left: 1em;
 }
 .block10-2-1 {
     font-size: 1.29em;
     line-height: 1.7em;
     font-weight: bold;
-    margin: 0 auto;
-    padding: 1.2em 0 1.1em 0;
-}
-.block10-2-1:first-child {
-    margin: 0 0.3em 0 1.79em;
+    padding: 1.2em 2.6em 1.1em 0.8em;
+    width: 20%;
+    text-align: center;
 }
 .block10-1-1 {
     background:  url(../img/aa.png) 0 0 no-repeat;
@@ -479,7 +499,7 @@ nav li a:hover {
 
 .block11 {
     /*padding: 4.9em 0 5.1em 13.5em;*/
-    padding: 4.8% 0% 5.1% 13.5%;
+    padding: 4.8% 0 5.1% 13.5%;
 }
 .block11-1:nth-child(2) {
     padding-left: 6em;
