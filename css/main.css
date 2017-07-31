@@ -274,38 +274,65 @@ nav li a:hover {
 
 /**********BLOCK-5 (em)**********/
 
+.product,
+.image-icon {
+    font-size: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.product {
+    width: 50.71%;
+}
+.product-title {
+    color: #bd2631;
+    font-size: 30px;
+    margin: 0;
+}
+.product-description {
+    color: #fff;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 3px;
+    word-spacing: -0.6px;
+    margin-top: 26px;
+}
+.image-icon {
+    width: 49.29%;
+}
+.image-icon__image,
+.image-icon__icon {
+    height: 100%;
+    font-size: 1px;
+    display: inline-block;
+}
+.image-icon__image {
+    width: 51.45%;
+}
+.image-icon__icon {
+    width: 48.55%;
+}
 
-.block5,
 .block6,
 .block7 {
     display: flex;
     display: -webkit-flex;
     display: -moz-flex;
 }
+.block5 {
+    font-size: 0;
+    height: 455px;
+}
 .block5-1 {
+    padding-left: 100px;
+    padding-top: 155px;
     background: #000 url(../img/b.png) 0 0/cover no-repeat;
 }
-.products {
-    color: #bd2631;
-    font-size: 2.15em;
+.block5-2-1 {
+    background: #000 url(../img/c.png) 100% 100% no-repeat;
 }
-.products-inf {
-    color: #fff;
-    line-height: 2.143em;
-}
-.block5-1-1 {
-    margin: 5.14em 0 0 3.3em;
-}
-.block5-1-2 {
-    margin: 2em 7em 9.7em 7.29em;
-}
-.block5-2 {
-    background: #000 url(../img/c.png) 0 0/cover no-repeat;
-    padding: 0 12.7em;
-}
-.block5-3 {
-    background: #fff url(../img/d.png) 7em 12.3em no-repeat;
-    padding: 0 0 0 23.92em;
+.block5-2-2 {
+    background: #fff url(../img/d.png) center center no-repeat;
 }
 
 /***********BLOCK-6**********/
