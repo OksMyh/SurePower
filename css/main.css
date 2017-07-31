@@ -243,7 +243,7 @@ nav li a:hover {
     display: -moz-flex;
 }
 .block4-1 {
-    margin: 28px 0 32px 141px;
+    margin: 27px 0 32px 141px;
 }
 .block4-1-1 {
     color: #efd4d5;
@@ -267,8 +267,8 @@ nav li a:hover {
     color: #000;
     border: 1px solid transparent;
     outline: none;
-    padding: 0 27px;
-    margin: 40px 0 39px 299px;
+    padding: 0 29px 0 27px;
+    margin: 37px 0 39px 297px;
     font-weight: bold;
 }
 
