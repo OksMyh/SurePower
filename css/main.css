@@ -281,8 +281,12 @@ nav li a:hover {
     display: inline-block;
     vertical-align: top;
 }
-.product {
+.block5 .product,
+.block7 .product {
     width: 50.71%;
+}
+.block6 .product {
+    width: 49.29%;
 }
 .product-title {
     color: #bd2631;
@@ -297,8 +301,12 @@ nav li a:hover {
     word-spacing: -0.6px;
     margin-top: 26px;
 }
-.image-icon {
+.block5 .image-icon,
+.block7 .image-icon {
     width: 49.29%;
+}
+.block6 .image-icon {
+    width: 50.71%;
 }
 .image-icon__image,
 .image-icon__icon {
@@ -306,22 +314,25 @@ nav li a:hover {
     font-size: 1px;
     display: inline-block;
 }
-.image-icon__image {
+.block5 .image-icon__image,
+.block7 .image-icon__image {
     width: 51.45%;
 }
-.image-icon__icon {
+.block5 .image-icon__icon,
+.block7 .image-icon__icon {
     width: 48.55%;
 }
-
-.block6,
-.block7 {
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
+.block6 .image-icon__image {
+    width: 50.41%;
 }
-.block5 {
+.block6 .image-icon__icon {
+    width: 49.59%;
+}
+
+.block5,
+.block7 {
     font-size: 0;
-    height: 455px;
+    height: 454px;
 }
 .block5-1 {
     padding-left: 100px;
@@ -338,17 +349,20 @@ nav li a:hover {
 /***********BLOCK-6**********/
 
 
-.block6-1 {
-    background: #000 url(../img/f.png) 0 0/cover no-repeat;
-    padding: 16.1em 12.7em;
+.block6 {
+    font-size: 0;
+    height: 450px;
+}
+.block6-1-1 {
+    background: #000 url(../img/f.png) 100% 100% no-repeat;
+}
+.block6-1-2 {
+    background: #fff url(../img/e.png) center center no-repeat;
 }
 .block6-2 {
-    background: #fff url(../img/e.png) 7.3em 10.7em no-repeat;
-    padding: 0 12.6em;
-}
-.block6-3 {
+    padding-left: 100px;
+    padding-top: 155px;
     background: #000 url(../img/g.png) 0 0/cover no-repeat;
-    padding: 8.5em 6.5em 0 7.4em;
 }
 
 /**********BLOCK-7***********/
@@ -356,16 +370,16 @@ nav li a:hover {
 
 .block7-1 {
     background: #000 url(../img/h.png) 0 0/cover no-repeat;
-    padding: 9em 5.8em 10.7em 8.4em;
+    padding-left: 100px;
+    padding-top: 155px;
 }
-.block7-2 {
-    background: #bd2631 url(../img/i.png) 8.9em 10.6em no-repeat;
-    padding: 0 12.72em;
+.block7-2-1 {
+    background: #bd2631 url(../img/i.png) center center no-repeat;
 }
-.block7-3 {
+.block7-2-2 {
     background: #000 url(../img/j.png) 0 0/100% 100% no-repeat;
-    padding: 0 11.92em;
 }
+
 
 /***********BLOCK-8**********/
 
