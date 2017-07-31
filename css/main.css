@@ -498,16 +498,29 @@ nav li a:hover {
 
 
 .block11 {
-    /*padding: 4.9em 0 5.1em 13.5em;*/
-    padding: 4.8% 0 5.1% 13.5%;
+    margin: 0;
+    font-size: 0;
+    height: 201px;
 }
-.block11-1:nth-child(2) {
-    padding-left: 6em;
-    padding-right: 7em;
+.block11-1 {
+    width: 25.36%;
+    background:  url(../img/wq.png) 83% 49% no-repeat;
 }
-.block11-1:nth-child(4) {
-    padding-left: 4.6em;
-    padding-right: 4.5em;
+.block11-2 {
+    width: 14.64%;
+    background:  url(../img/ww.png) 70% 48%  no-repeat;
+}
+.block11-3 {
+    width: 20%;
+    background:  url(../img/we.png) 56% 48%  no-repeat;
+}
+.block11-4 {
+    width: 16.43%;
+    background:  url(../img/wr.png) 12% 48%  no-repeat;
+}
+.block11-5 {
+    width: 23.57%;
+    background:  url(../img/wt.png) 13% 48.6%  no-repeat;
 }
 
 /**********FOOTER**********/
