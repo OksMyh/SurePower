@@ -331,22 +331,22 @@ nav li a:hover {
     display: inline-block;
     text-align: center;
     line-height: 2.2em;
-    padding: 16.4em 0 7.2em 5.79em;
+    padding: 16.4% 0 7.2% 6%;
 }
 .safe {
-    background: url(../img/n.png) 17.39em 6.5em no-repeat,
-                url(../img/k.png) 16em 3.5em no-repeat;
+    background: url(../img/n.png) 63.6% 22% no-repeat,
+                url(../img/k.png) 64% 15% no-repeat;
     float: left;
 }
 .green {
-    background: url(../img/l.png) 14.9em 4.7em no-repeat;
+    background: url(../img/l.png) 61% 20% no-repeat;
     float: left;
 }
 .block8 .ready {
-    background: url(../img/o.png) 11.8em 7em  no-repeat,
-                url(../img/m.png) 8.2em 4em  no-repeat;
+    background: url(../img/o.png) 43.5% 23%  no-repeat,
+                url(../img/m.png) 39% 18%  no-repeat;
     float: right;
-    padding: 16.65em 4.59em 7em 0;
+    padding: 16.5% 4.5% 7% 0;
 }
 .more-inf-1 {
     color: #bd2631;
@@ -356,7 +356,6 @@ nav li a:hover {
 .more-inf-2 {
     color: #000;
     font-size: 1.296em;
-    margin: 0.699em 0 0 0;
 }
 
 /***********BLOCK-9***********/
@@ -516,3 +515,16 @@ nav li a:hover {
 
 
 /**********RESPONSIVE**********/
+
+@media screen and (max-width:1060px)  {
+    body {
+        font-size: 18px;
+    }
+    .logo,
+    .static-inf {
+        float: none;
+    }
+    .logo-section {
+        text-align: center;
+    }
+}

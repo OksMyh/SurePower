@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fontAwesome/fontawesome-webfont.eot?v=4.6.3');
+    src: url('fontAwesome/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+    url('fontAwesome/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),
+    url('fontAwesome/fontawesome-webfont.woff?v=4.6.3') format('woff'),
+    url('fontAwesome/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),
+    url('fontAwesome/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+}
+@font-face {
+    font-family: 'Hind';
+    font-weight: normal;
+    font-style: normal;
+    src: url(./Hind/Hind-Regular.ttf) format('ttf');
+}@font-face {
+    font-family: 'Hind';
+    font-weight: bold;
+    font-style: normal;
+    src: url(./Hind/Hind-Bold.ttf) format('ttf');
+}
+@font-face {
+    font-family: MyriadPro;
+    font-weight: normal;
+    font-style: normal;
+    src: url(./MyriadPro/MyriadProRegular/MyriadProRegular.ttf) format('ttf');
+    src: url(./MyriadPro/MyriadProRegular/MyriadProRegular.woff) format('woff');
+    src: url(./MyriadPro/MyriadProRegular/MyriadProRegular.otf) format('otf');
+    src: url(./MyriadPro/MyriadProRegular/MyriadProRegular.eot) format('eot');
+}
