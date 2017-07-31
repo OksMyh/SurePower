@@ -285,9 +285,6 @@ nav li a:hover {
 .block7 .product {
     width: 50.71%;
 }
-.block6 .product {
-    width: 49.29%;
-}
 .product-title {
     color: #bd2631;
     font-size: 30px;
@@ -305,9 +302,6 @@ nav li a:hover {
 .block7 .image-icon {
     width: 49.29%;
 }
-.block6 .image-icon {
-    width: 50.71%;
-}
 .image-icon__image,
 .image-icon__icon {
     height: 100%;
@@ -322,13 +316,6 @@ nav li a:hover {
 .block7 .image-icon__icon {
     width: 48.55%;
 }
-.block6 .image-icon__image {
-    width: 50.41%;
-}
-.block6 .image-icon__icon {
-    width: 49.59%;
-}
-
 .block5,
 .block7 {
     font-size: 0;
@@ -353,6 +340,18 @@ nav li a:hover {
     font-size: 0;
     height: 450px;
 }
+.block6 .image-icon {
+    width: 50.71%;
+}
+.block6 .product {
+    width: 49.29%;
+}
+.block6 .image-icon__image {
+    width: 50.21%;
+}
+.block6 .image-icon__icon {
+    width: 49.79%;
+}
 .block6-1-1 {
     background: #000 url(../img/f.png) 100% 100% no-repeat;
 }
@@ -361,7 +360,7 @@ nav li a:hover {
 }
 .block6-2 {
     padding-left: 100px;
-    padding-top: 155px;
+    padding-top: 149px;
     background: #000 url(../img/g.png) 0 0/cover no-repeat;
 }
 
@@ -370,11 +369,11 @@ nav li a:hover {
 
 .block7-1 {
     background: #000 url(../img/h.png) 0 0/cover no-repeat;
-    padding-left: 100px;
-    padding-top: 155px;
+    padding-left: 117px;
+    padding-top: 157px;
 }
 .block7-2-1 {
-    background: #bd2631 url(../img/i.png) center center no-repeat;
+    background: #bd2631 url(../img/i.png) 53% 47% no-repeat;
 }
 .block7-2-2 {
     background: #000 url(../img/j.png) 0 0/100% 100% no-repeat;
@@ -497,32 +496,30 @@ nav li a:hover {
 
 .block12 {
     background-color: #242424;
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    padding: 0 12em 2.8em 10.79em;
+    padding: 2.9em 12em 0 12.09em;
+    font-size: 0;
+    box-sizing: content-box;
 }
 .block12-1,
 .block12-2,
 .block12-3,
 .block12-4 {
+    display: inline-block;
+    font-size: 14px;
     border-right: 1px solid #353535;
-    width: 23%;
+    width: 25%;
+    vertical-align: top;
 }
 .block12-1 {
-    margin: 4.29em 0 0 1.5em;
     padding: 0 1.58em 0 0;
 }
 .block12-2 {
-    margin: 4.2em 0 0 2.6em;
 }
 .block12-3 {
-    margin: 4.3em 0 0 4.23em;
 }
 .block12-4 {
     border-right: 1px solid transparent;
     margin: 0;
-    padding: 4.36em 0 0 2.94em;
 }
 .block12-1-1 {
     color: #bd2631;
