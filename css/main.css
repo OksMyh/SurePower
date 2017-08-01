@@ -268,7 +268,7 @@ nav li a:hover {
     border: 1px solid transparent;
     outline: none;
     padding: 0 29px 0 27px;
-    margin: 37px 0 39px 297px;
+    margin: 37px 100px 39px 297px;
     font-weight: bold;
 }
 
@@ -413,7 +413,7 @@ nav li a:hover {
 .green p {
     padding-left: 2em;
 }
-.block8 .ready {
+.ready {
     background: url(../img/o.png) 52% 29.9% no-repeat,
                 url(../img/m.png) 49.5% 24.8% no-repeat;
     float: right;
@@ -527,7 +527,9 @@ nav li a:hover {
 
 .block12 {
     background-color: #242424;
-    padding: 2.9em 12em 0 12.09em;
+    padding-top: 62px;
+    padding-bottom: 45px;
+    padding-left: 10.6rem;
     font-size: 0;
     box-sizing: content-box;
 }
@@ -536,26 +538,31 @@ nav li a:hover {
 .block12-3,
 .block12-4 {
     display: inline-block;
+    box-sizing: border-box;
     font-size: 14px;
     border-right: 1px solid #353535;
     vertical-align: top;
 }
 .block12-1 {
-    padding: 4.4em 1.58em 0 12.3em;
-    width: 30%;
+    width: 20.4%;
+    padding-left: 0.1rem;
+    padding-right: 1.5rem;
+    padding-bottom: 6px;
 }
 .block12-2 {
-    padding: 4.4em 0 0 2.7em;
-    width: 20.72%;
+    width: 23.32%;
+    padding-left: 2.3rem;
+    padding-bottom: 19px;
 }
 .block12-3 {
-    padding: 4.4em 0 0 40.6px;
     width: 20.71em;
+    padding-left: 2.7rem;
+    padding-bottom: 76px;
 }
 .block12-4 {
     border-right: 1px solid transparent;
-    padding: 4.4em 0 0 2.6em;
     width: 28.57%;
+    padding-left: 2.4rem;
 }
 .block12-1-1 {
     color: #bd2631;
@@ -567,14 +574,14 @@ nav li a:hover {
     color: #fff;
     font-size: 0.857em;
     line-height: 1.4em;
-    margin: 0 0 1.39em 0;
+    margin: 0 0 1.29em 0;
 }
 .block12-4-1 {
     color: #bd2631;
     font-family: "MyriadPro", sans-serif;
     font-size: 12px;
     line-height: 16px;
-    margin: 0 10px;
+    margin: -0.1rem 0.1rem 0 0;
 }
 
 /***********BLOCK-13***********/
@@ -605,15 +612,69 @@ nav li a:hover {
 
 /**********RESPONSIVE**********/
 
-@media screen and (max-width:1060px)  {
-    body {
-        font-size: 18px;
+@media screen and (max-width:1160px)  {
+    .block1 {
+        text-align: center;
     }
-    .logo,
-    .static-inf {
+    .block1 div {
         float: none;
     }
-    .logo-section {
-        text-align: center;
+}
+
+@media screen and (max-width:1035px) {
+    .block2 div {
+        float: none;
+    }
+    .logo {
+        padding: 0;
+    }
+    .block10-2-1 {
+        font-size: 0.99em;
+    }
+    .block4-1-1,
+    .block4-1-2 {
+        font-size: 20px;
+    }
+    .button-1 {
+        margin: 37px 76px 37px 20px;
+    }
+    .block5, .block6, .block7 {
+        height: 350px;
+    }
+    .block5-1,
+    .block6-2,
+    .block7-1 {
+        padding-left: 58px;
+        padding-top: 25px;
+    }
+    .block8 {
+        height: 385px;
+    }
+    .block8 div {
+        float: none;
+        width: 100%;
+    }
+    .safe {
+        background: url(../img/n.png) 20% 58%/5% no-repeat,
+                    url(../img/k.png) 19% 77%/8% no-repeat;
+    }
+    .green {
+        background: url(../img/l.png) 4% 22%/9% no-repeat;
+    }
+    .green h2 {
+        padding-left: 218px;
+    }
+    .ready {
+        background: url(../img/o.png) 15% 25% /6% no-repeat,
+                    url(../img/m.png) 13% -3%/ 10% no-repeat;
+    }
+    .more-inf-1 {
+        display: inline-block;
+        padding: 1.2em 2.4em 0 6.5em;
+    }
+    .more-inf-2 {
+        display: inline-block;
+        padding-bottom: 23px;
+        padding-top: 5px;
     }
 }
