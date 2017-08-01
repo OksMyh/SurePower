@@ -552,12 +552,12 @@ nav li a:hover {
 .block12-2 {
     width: 23.32%;
     padding-left: 2.3rem;
-    padding-bottom: 19px;
+    padding-bottom: 24px;
 }
 .block12-3 {
     width: 23.61%;
     padding-left: 2.7rem;
-    padding-bottom: 68.4px;
+    padding-bottom: 70px;
 }
 .block12-4 {
     border-right: 1px solid transparent;
@@ -613,7 +613,7 @@ nav li a:hover {
 /**********RESPONSIVE**********/
 
 
-@media screen and (max-width:1215px)  {
+@media screen and (max-width:1160px)  {
     .block1 {
         text-align: center;
     }
@@ -627,8 +627,8 @@ nav li a:hover {
         padding-top: 25px;
     }
     .block12 {
-        padding-left: 3rem;
-    }
+         padding-left: 3rem;
+     }
 }
 
 @media screen and (max-width:1095px) {
@@ -680,5 +680,28 @@ nav li a:hover {
         display: inline-block;
         padding-bottom: 23px;
         padding-top: 5px;
+    }
+
+}
+@media screen and (max-width:1085px) {
+    .block1 div {
+        display: block;
+        font-size: 2em;
+    }
+    .block2 div {
+        display: block;
+    }
+    div .fa {
+        font-size: 1em;
+    }
+    .social-icon .fa {
+         font-size: 3em;
+     }
+    .social-icon ul {
+        padding: 2em 0 2em 0;
+    }
+    .logo img {
+        width: 100%;
+        height: auto;
     }
 }
