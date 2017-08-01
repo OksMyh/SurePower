@@ -538,19 +538,24 @@ nav li a:hover {
     display: inline-block;
     font-size: 14px;
     border-right: 1px solid #353535;
-    width: 25%;
     vertical-align: top;
 }
 .block12-1 {
-    padding: 0 1.58em 0 0;
+    padding: 4.4em 1.58em 0 12.3em;
+    width: 30%;
 }
 .block12-2 {
+    padding: 4.4em 0 0 2.7em;
+    width: 20.72%;
 }
 .block12-3 {
+    padding: 4.4em 0 0 40.6px;
+    width: 20.71em;
 }
 .block12-4 {
     border-right: 1px solid transparent;
-    margin: 0;
+    padding: 4.4em 0 0 2.6em;
+    width: 28.57%;
 }
 .block12-1-1 {
     color: #bd2631;
