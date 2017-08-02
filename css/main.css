@@ -453,12 +453,12 @@ nav li a:hover {
 /***********BLOCK-10***********/
 
 .block10 {
-    height: 425px;
+    height: 424px;
 }
 .image {
     display: inline-block;
     width: 20%;
-    height: 354px;
+    height: 352px;
     margin: 0;
     padding: 0;
     font-size: 0;
@@ -481,6 +481,14 @@ nav li a:hover {
 
 .block11 {
     height: 201px;
+    padding-left: 190px;
+}
+.emblem {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    font-size: 0;
+    padding: 67px 84px 0 0;
 }
 .block11-1 {
     width: 25.36%;
