@@ -577,12 +577,12 @@ nav li a:hover {
 
 /**********BLOCK-12**********/
 
+
 .block12 {
-    height: 319px;
     background-color: #242424;
     padding-top: 62px;
+    padding-bottom: 45px;
     padding-left: 10.6rem;
-    margin: 0 0 -1px 0;
     font-size: 0;
     box-sizing: content-box;
 }
@@ -600,21 +600,17 @@ nav li a:hover {
     width: 20.4%;
     padding-left: 0.1rem;
     padding-right: 1.5rem;
-    padding-bottom: 0.7%;;
+    padding-bottom: 6px;
 }
 .block12-2 {
     width: 23.32%;
     padding-left: 2.3rem;
-    padding-bottom: 2.1%;
+    padding-bottom: 19px;
 }
 .block12-3 {
     width: 23.61%;
     padding-left: 2.7rem;
-    padding-bottom: 4.6%;
-}
-.free {
-    padding-top: 2.7em;
-    padding-left: 0.3em;
+    padding-bottom: 68.4px;
 }
 .block12-4 {
     border-right: 1px solid transparent;
@@ -634,7 +630,7 @@ nav li a:hover {
     margin: 0 0 1.29em 0;
 }
 .contact {
-    width: 41%;
+    width: 57%;
 }
 .block12-4-1 {
     color: #bd2631;
