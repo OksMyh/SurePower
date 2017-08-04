@@ -217,7 +217,7 @@ nav li a:hover {
     background: transparent;
     display: inline-block;
     float: right;
-    padding: 64px 16px 0 0;
+    padding: 4.5% 0 0 0;
 }
 .block3-1 {
     display: inline-block;
@@ -460,8 +460,7 @@ nav li a:hover {
     top: 50%;
     margin: auto;
     transform: translateY(-50%);
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     height: auto;
 }
 
@@ -471,9 +470,11 @@ nav li a:hover {
 
 .block8 {
     width: 100%;
-    height: 452px;
+    height: 465px;
     margin:auto;
     text-align: center;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
 }
 .safe,
 .green,
@@ -482,6 +483,11 @@ nav li a:hover {
     width: 33.3%;
     height: 462px;
     font-size: 16px;
+    position: relative;
+    top: 50%;
+    margin:auto;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 .safe,
 .green {
@@ -507,13 +513,35 @@ nav li a:hover {
     width: 100%;
     height: 193px;
     background: #000 url(../img/p.png)  right 0  no-repeat;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
 }
+
 .block9-1 {
+    width: 48%;
+    float: left;
+    margin: 0.5% auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    padding-right: 4.2%;
+}
+.block9-1-1 {
+    float: right;
+}
+.block9-2 {
+    width: 52%;
+    float: left;
     color: #fff;
     font-size: 2.57em;
     line-height: 0.8em;
     font-weight: normal;
-    margin: 0;
+    margin: 0.3% auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 
 /***********BLOCK-10***********/
@@ -553,7 +581,6 @@ nav li a:hover {
 
 .block11 {
     height: 201px;
-    /*padding-left: 190px;*/
 }
 .emblem {
     width: 9%;
@@ -589,10 +616,11 @@ nav li a:hover {
 .block12 {
     background-color: #242424;
     padding-top: 62px;
-    padding-bottom: 45px;
+    padding-bottom: 52px;
     padding-left: 10.6rem;
     font-size: 0;
     box-sizing: content-box;
+    margin-bottom: -1px;
 }
 .block12-1,
 .block12-2,
@@ -612,18 +640,18 @@ nav li a:hover {
 }
 .block12-2 {
     width: 23.32%;
-    padding-left: 2.3rem;
+    padding-left: 2.5rem;
     padding-bottom: 19px;
 }
 .block12-3 {
     width: 23.61%;
-    padding-left: 2.7rem;
+    padding-left: 3.2rem;
     padding-bottom: 68.4px;
 }
 .block12-4 {
     border-right: 1px solid transparent;
     width: 28.57%;
-    padding-left: 2.4rem;
+    padding-left: 3.1rem;
 }
 .block12-1-1 {
     color: #bd2631;
