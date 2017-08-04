@@ -635,43 +635,43 @@ nav li a:hover {
 
 .block12 {
     background-color: #242424;
-    padding-top: 62px;
-    padding-bottom: 52px;
-    padding-left: 10.6rem;
-    font-size: 0;
-    box-sizing: content-box;
-    margin-bottom: -1px;
+    padding-top: 64px;
+    padding-bottom: 15px;
+    /*padding-left: 10.6rem;*/
+    /*font-size: 0;*/
+    /*box-sizing: content-box;*/
+    /*margin-bottom: -1px;*/
+}
+.block12-child {
+    float: left;
+    width: 20%;
 }
 .block12-1,
 .block12-2,
 .block12-3,
 .block12-4 {
-    display: inline-block;
-    box-sizing: border-box;
-    font-size: 14px;
     border-right: 1px solid #353535;
-    vertical-align: top;
 }
 .block12-1 {
-    width: 20.4%;
-    padding-left: 0.1rem;
-    padding-right: 1.5rem;
-    padding-bottom: 6px;
+    width: 18.1%;
+    margin-left: 12.4%;
+    padding-right: 2%;
 }
 .block12-2 {
-    width: 23.32%;
-    padding-left: 2.5rem;
-    padding-bottom: 19px;
+    width: 18.22%;
+    margin-left: 2.5%;
+    padding-right: 2.5%;
 }
 .block12-3 {
-    width: 23.61%;
-    padding-left: 3.2rem;
-    padding-bottom: 68.4px;
+    width: 17.81%;
+    margin-left: 3.1%;
+    padding-right: 2.2%;
 }
 .block12-4 {
-    border-right: 1px solid transparent;
-    width: 28.57%;
-    padding-left: 3.1rem;
+    width: 25.17%;
+    border-right: none;
+    margin-left: 2.7%;
+    padding-right: 10.2%;
 }
 .block12-1-1 {
     color: #bd2631;
