@@ -553,15 +553,15 @@ nav li a:hover {
 
 .block11 {
     height: 201px;
-    padding-left: 190px;
+    /*padding-left: 190px;*/
 }
 .emblem {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 20%;
     float: left;
     margin: 0;
-    font-size: 0;
-    padding: 67px 84px 0 0;
+    /*font-size: 0;*/
+    padding: 67px 0 0 0;
 }
 .emblem img {
     min-width: 130px;
@@ -578,8 +578,7 @@ nav li a:hover {
     padding-bottom: 45px;
     padding-left: 10.6rem;
     font-size: 0;
-    height: 383px;
-    margin-bottom: -1px;
+    box-sizing: content-box;
 }
 .block12-1,
 .block12-2,
@@ -623,9 +622,6 @@ nav li a:hover {
     font-size: 0.857em;
     line-height: 1.4em;
     margin: 0 0 1.29em 0;
-}
-.contact {
-    width: 57%;
 }
 .block12-4-1 {
     color: #bd2631;
