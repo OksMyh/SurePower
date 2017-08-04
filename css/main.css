@@ -310,33 +310,36 @@ nav li a:hover {
 
 
 .block5 {
-    /*font-size: 0;*/
-    /*margin: auto;*/
-    /*width: 100%;*/
-    height: 454px;
+    width: 100%;
+}
+.block5 img {
+    width: 100%;
+    max-width: 100%;
+    height: max-content;
+    max-height: max-content;
 }
 .product {
     display: inline-block;
     float: left;
     width: 51.31%;
     height: 454px;
-    background: #000 url(../../surepower/img/b.png) 0 0/cover no-repeat;
-    /*vertical-align: top;*/
+    position: relative;
 }
 .products {
-    padding: 22% 12% 0 14.2%;
+    position: absolute;
+    top: 34.1%;
+    left: 14.1%;
 }
 .title-img {
     color: #bd2631;
-    font-size: 32.3px;
+    font-size: 2.2em;
     margin: 0;
 }
 .description  {
     color: #fff;
     line-height: 30px;
-    font-size: 14.9px;
-    word-spacing: -0.8px;
-    margin: 4.4% 0.5%;
+    font-size: 1em;
+    margin: 4.2% 13.4% 0 0.5%;
 }
 .image-icon {
     display: inline-block;
@@ -349,10 +352,8 @@ nav li a:hover {
 .image-icon-icon {
     height: 454px;
     display: inline-block;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
     margin: 0;
-    vertical-align: top;
+    /*vertical-align: top;*/
 }
 .image-icon-image  {
     width: 52.65%;
@@ -361,58 +362,52 @@ nav li a:hover {
 .image-icon-icon {
     width: 47.35%;
     float: right;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
 }
 .child1 {
     width: 100%;
 }
 .child2 {
-    width: 100%;
+    width: 50%;
     position: relative;
     top: 50%;
     margin: auto;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-.child1 img,
-.child2 img {
-    max-width: 100%;
-    width: auto;
-    height: 100%;
-}
+/*.child1 img,*/
+/*.child2 img {*/
+    /*max-width: 100%;*/
+    /*width: auto;*/
+    /*height: 100%;*/
+/*}*/
 
 
 /***********BLOCK-6**********/
 
 
 .block6 {
-    font-size: 0;
-    height: 450px;
-    margin: auto;
     width: 100%;
 }
 .block6 img {
-    width: auto;
+    width: 100%;
     max-width: 100%;
-    height: 100%;
-    margin: auto;
-    text-align: center;
+    height: max-content;
+    max-height: max-content ;
 }
 .block6 .image-icon {
     width: 51.3%;
+    float: left;
 }
 .block6 .product {
+    float: right;
     width: 48.7%;
     height: 450px;
-    background: #000 url(../img/g.png) 0 0/cover no-repeat;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
+    /*background: #000 url(../img/g.png) 0 0/cover no-repeat;*/
 }
 .description  {
-    color: #fff;
-    line-height: 30px;
-    font-size: 14.9px;
-    word-spacing: -0.8px;
-    margin: 6.1% 0.5%;
+    /*margin: 6.1% 0.5%;*/
 }
 .block6 .image-icon-image {
     width: 50.21%;
@@ -424,39 +419,42 @@ nav li a:hover {
 .block6 .image-icon-icon {
     height: 450px;
 }
+.block6 .child2 {
+    width: 45%;
+    position: relative;
+    top: 50%;
+    margin: 1% auto;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
 
 /**********BLOCK-7***********/
 
 .block7 {
-    font-size: 0;
-    margin: auto;
     width: 100%;
-    height: 454px;
 }
 .block7 img {
-    width: auto;
+    width: 100%;
     max-width: 100%;
-    height: 100%;
+    height: max-content;
+    max-height: max-content ;
 }
 .block7 .product {
     width: 51.31%;
     height: 454px;
-    background: #000 url(../../surepower/img/h.png) 0 0/cover no-repeat;
 }
-.products {
-    padding: 22% 12% 0 14.2%;
-}
-.title-img {
-    color: #bd2631;
-    font-size: 32.3px;
+.product-image {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
     margin: 0;
 }
+/*.products {*/
+    /*padding: 22% 12% 0 14.2%;*/
+/*}*/
+
 .description  {
-    color: #fff;
-    line-height: 30px;
-    font-size: 14.9px;
-    word-spacing: -0.8px;
-    margin: 6.1% 0.5%;
+    /*margin: 6.1% 0.5%;*/
 }
 .block7 .image-icon {
     width: 48.69%;
@@ -466,23 +464,24 @@ nav li a:hover {
     height: 454px;
 }
 .block7 .image-icon-image  {
-    background-color: #bd2631;
-    width: 52.8%;
+    width: 47.2%;
+    float: right;
 }
 .block7 .image-icon-icon {
-    width: 47.2%;
+    background-color: #bd2631;
+    width: 52.8%;
+    float: left;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
 }
 .block7 .child2 {
-    width: 100%;
-}
-.block7 .child1 {
-    width: 100%;
+    width: 50%;
     position: relative;
     top: 50%;
-    margin: auto;
+    margin: -2.1% auto;
     transform: translateY(-50%);
-    -webkit-transform-style: preserve-3d;
-    height: auto;
+    -webkit-transform: translateY(-50%);
+    padding-right: 6%;
 }
 
 
