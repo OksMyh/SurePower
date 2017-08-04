@@ -253,11 +253,32 @@ nav li a:hover {
 .block4 {
     background-color: #bd2631;
     height: 127px;
-    padding: 1.9% 0 0 10%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+.block4-1,
+.button {
+    position: relative;
+    top: 50%;
+    margin: auto;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 .block4-1 {
     float: left;
     display: inline-block;
+    width: 60.39%;
+    margin: -0.2% auto;
+    padding-left: 4%;
+}
+.wrapper {
+    float: right;
+}
+.button {
+    float: right;
+    width: 39.61%;
+    display: inline-block;
+    padding-right: 8.1%;
 }
 .block4-1-1 {
     color: #efd4d5;
@@ -279,29 +300,28 @@ nav li a:hover {
     border-radius: 5px;
     background-color: #fff;
     color: #000;
-    margin: 0.9% 10.2% 0 0;
     font-weight: bold;
+    height: 52px;
     float: right;
-    display: inline-block;
-    height: 50px;
-    width: 10.9%;
+    width: 32%;
 }
 
 /**********BLOCK-5 (em)**********/
 
 
 .block5 {
-    font-size: 0;
-    margin: auto;
-    width: 100%;
+    /*font-size: 0;*/
+    /*margin: auto;*/
+    /*width: 100%;*/
     height: 454px;
 }
 .product {
     display: inline-block;
+    float: left;
     width: 51.31%;
     height: 454px;
     background: #000 url(../../surepower/img/b.png) 0 0/cover no-repeat;
-    vertical-align: top;
+    /*vertical-align: top;*/
 }
 .products {
     padding: 22% 12% 0 14.2%;
@@ -320,25 +340,27 @@ nav li a:hover {
 }
 .image-icon {
     display: inline-block;
+    float: right;
     width: 48.69%;
-    margin: auto;
-    text-align: center;
+    /*margin: auto;*/
+    /*text-align: center;*/
 }
 .image-icon-image,
 .image-icon-icon {
     height: 454px;
     display: inline-block;
     transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     margin: 0;
     vertical-align: top;
 }
 .image-icon-image  {
     width: 52.65%;
+    float: left;
 }
 .image-icon-icon {
     width: 47.35%;
+    float: right;
 }
 .child1 {
     width: 100%;
@@ -349,8 +371,7 @@ nav li a:hover {
     top: 50%;
     margin: auto;
     transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 .child1 img,
 .child2 img {
@@ -746,14 +767,8 @@ nav li a:hover {
          -o-background-size: cover;
          height: 550px;
      }
-    .block4-1-1 {
-        font-size: 1.7em;
-    }
-    .block4-1-2 {
-        font-size: 1.1em;
-    }
     .button-1 {
-        width: 105px;
+        width: 130px;
     }
 }
 @media screen and (max-width: 934px) {
@@ -776,6 +791,15 @@ nav li a:hover {
     }
     .touch-menu {
         display: block;
+    }
+    .block4-1-1 {
+        font-size: 1.2em;
+    }
+    .block4-1-2 {
+        font-size: 0.9em;
+    }
+    .button-1 {
+        width: 49%;
     }
 }
 @media screen and (max-width: 480px) {
