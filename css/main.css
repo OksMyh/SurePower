@@ -27,13 +27,15 @@ a {
     text-decoration: none;
     color: #333;
 }
-img {
-    width: 100%;
-    height: auto;
-}
+
 button {
     border: 1px solid transparent;
     outline: none;
+}
+.full-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 /**********HEADER**********/
@@ -123,7 +125,7 @@ header {
 .static {
     display: inline-block;
     float: right;
-    padding: 43px 140px 0 0;
+    padding: 3.1% 8.9% 0 0;
 }
 .static-inf {
     display: inline-block;
@@ -191,7 +193,8 @@ nav li a:hover {
 }
 .search {
     float: right;
-    padding: 26px 64px 0 0;
+    height: 71px;
+    padding: 2.2% 4% 0 0;
 }
 
 /**********MAIN**********/
@@ -467,52 +470,34 @@ nav li a:hover {
 /***********BLOCK-8**********/
 
 .block8 {
-    padding-left: 3.1em;
-    padding-right: 2em;
-    height: 462px;
-    box-sizing: content-box;
-}
-.block8 div {
-    display: inline-block;
+    width: 100%;
+    height: 452px;
+    margin:auto;
     text-align: center;
-    line-height: 2.2em;
+}
+.safe,
+.green,
+.ready {
+    display: inline-block;
     width: 33.3%;
-    box-sizing: content-box;
-    word-spacing: 0.1px;
+    height: 462px;
+    font-size: 16px;
 }
-.safe {
-    background: url(../img/n.png) 53.5% 29.5% no-repeat,
-                url(../img/k.png) 53.2% 22% no-repeat;
-    float: left;
-}
-.safe h2 {
-    padding-bottom: 0.3em;
-}
+.safe,
 .green {
-    background: url(../img/l.png) 55.9% 29% no-repeat;
     float: left;
-}.green h2 {
-     padding-left: 1em;
- }
-.green p {
-    padding-left: 2em;
 }
 .ready {
-    background: url(../img/o.png) 52% 29.9% no-repeat,
-                url(../img/m.png) 49.5% 24.8% no-repeat;
     float: right;
 }
 .more-inf-1 {
     color: #bd2631;
-    font-size: 2.57em;
-    margin: 0;
-    padding-top: 6.4em;
-    padding-bottom: 0.5em;
+    font-size: 36px;
+    font-weight: bold;
 }
 .more-inf-2 {
     color: #000;
-    font-size: 1.296em;
-    margin: 0;
+    font-size: 18px;
 }
 
 /***********BLOCK-9***********/
@@ -520,7 +505,7 @@ nav li a:hover {
 
 .block9 {
     width: 100%;
-    height: 195px;
+    height: 193px;
     background: #000 url(../img/p.png)  right 0  no-repeat;
 }
 .block9-1 {
@@ -529,34 +514,39 @@ nav li a:hover {
     line-height: 0.8em;
     font-weight: normal;
     margin: 0;
-    padding: 2.5em 0 2.14em 18.5em;
 }
 
 /***********BLOCK-10***********/
 
-.block10 {
-    height: 424px;
-}
-.image {
+
+.galery {
     display: inline-block;
     width: 20%;
-    height: 352px;
+    height: 423px;
     margin: 0;
     padding: 0;
     font-size: 0;
     float: left;
 }
+.galery-img {
+    height: 353px;
+}
+.galery-img img {
+    height: 100%;
+}
 .explanation {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.13rem;
     line-height: 1.7rem;
     font-weight: bold;
     background-color: #bd2631;
     color: #fff;
     margin-left: -2px;
-    padding-top: 22px;
-    height: 71px;
+    padding-top: 8.1%;
+    padding-right: 1%;
+    height: 70px;
 }
+
 
 /**********BLOCK-11**********/
 
@@ -567,10 +557,14 @@ nav li a:hover {
 }
 .emblem {
     display: inline-block;
+    width: 20%;
     float: left;
     margin: 0;
     font-size: 0;
     padding: 67px 84px 0 0;
+}
+.emblem img {
+    min-width: 130px;
 }
 
 /**********FOOTER**********/
@@ -584,7 +578,8 @@ nav li a:hover {
     padding-bottom: 45px;
     padding-left: 10.6rem;
     font-size: 0;
-    box-sizing: content-box;
+    height: 383px;
+    margin-bottom: -1px;
 }
 .block12-1,
 .block12-2,
@@ -644,8 +639,9 @@ nav li a:hover {
 
 
 .block13 {
+    height: 84px;
     background-color: #131313;
-    padding: 2.29em 11.2em 1.6em 12.27em;
+    padding: 2.4% 10.1% 0 12.4%;
 }
 .block13-1,
 .block13-2 {
@@ -683,7 +679,7 @@ nav li a:hover {
         float: none;
     }
     .town {
-        width: 24%;
+        width: 190px;
     }
     .logo,
     .static {
