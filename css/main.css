@@ -204,35 +204,45 @@ nav li a:hover {
 .block3 {
     height: 642px;
     background: #000 url(../img/a.png) right 0 no-repeat;
+}
+.colomn3-1,
+.colomn3-2,
+.colomn3-3 {
+    float: left;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
+    height: 100%;
 }
-.button-left {
-    height: inherit;
-    background: transparent;
-    display: inline-block;
-    float: left;
+
+.colomn3-1 {
     width: 10%;
 }
-.button-right {
-    height: inherit;
-    background: transparent;
-    display: inline-block;
-    float: right;
-    padding: 4.5% 0 0 0;
-    width: 2.1%;
+.colomn3-2 {
+    width: 80%;
 }
-.block3-1 {
-    display: inline-block;
-    float: left;
-    font-family: 'MyriadPro', sans-serif;
-    padding-top: 4.6%;
+.colomn3-3 {
+    width: 10%;
+}
+
+.button-left,
+.button-right {
+    background: transparent;
+    width: 100%;
+}
+
+.block3-1,
+.button-left,
+.button-right {
     position: relative;
     top: 50%;
-    margin:auto;
+    margin: auto;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    width: 87.9%;
+}
+
+.block3-1 {
+    font-family: 'MyriadPro', sans-serif;
+    padding-top: 4.6%;
 }
 .block3-1-1 {
     color: #bd2631;
@@ -804,9 +814,12 @@ nav li a:hover {
     .block11 {
         height: auto;
     }
-    .block11 .emblem {
-        width: 27%;
+    .emblem img {
+        min-width: 90px;
     }
+    /*.block11 .emblem {
+        width: 27%;
+    }*/
     .block12 div {
         display: block;
         float: none;
