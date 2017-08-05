@@ -253,11 +253,9 @@ nav li a:hover {
 .block4 {
     background-color: #bd2631;
     height: 127px;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
 }
 .block4-1,
-.button {
+.button-1 {
     position: relative;
     top: 50%;
     margin: auto;
@@ -269,7 +267,9 @@ nav li a:hover {
     display: inline-block;
     width: 60.39%;
     margin: -0.2% auto;
-    padding-left: 4%;
+    padding-left: 10.1%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
 }
 .wrapper {
     float: right;
@@ -303,7 +303,8 @@ nav li a:hover {
     font-weight: bold;
     height: 52px;
     float: right;
-    width: 32%;
+    width: 10%;
+    margin-right: 8.1%;
 }
 
 /**********BLOCK-5 (em)**********/
@@ -360,7 +361,7 @@ nav li a:hover {
     float: left;
 }
 .image-icon-icon {
-    width: 47.35%;
+    width: 43.95%;
     float: right;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
@@ -369,7 +370,7 @@ nav li a:hover {
     width: 100%;
 }
 .child2 {
-    width: 50%;
+    width: 48%;
     position: relative;
     top: 50%;
     margin: auto;
@@ -475,13 +476,13 @@ nav li a:hover {
     -webkit-transform-style: preserve-3d;
 }
 .block7 .child2 {
-    width: 50%;
+    width: 34.2%;
     position: relative;
     top: 50%;
     margin: -2.1% auto;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    padding-right: 6%;
+    /*padding-right: 6%;*/
 }
 
 
@@ -490,7 +491,6 @@ nav li a:hover {
 
 .block8 {
     width: 100%;
-    height: 465px;
     margin:auto;
     text-align: center;
     transform-style: preserve-3d;
@@ -501,21 +501,21 @@ nav li a:hover {
 .ready {
     display: inline-block;
     width: 33.3%;
-    height: 462px;
-    font-size: 16px;
+    /*height: 462px;*/
+    float: left;
     position: relative;
     top: 50%;
     margin:auto;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-.safe,
-.green {
-    float: left;
-}
-.ready {
-    float: right;
-}
+/*.safe,*/
+/*.green {*/
+    /*float: left;*/
+/*}*/
+/*.ready {*/
+    /*float: right;*/
+/*}*/
 .more-inf-1 {
     color: #bd2631;
     font-size: 36px;
@@ -523,7 +523,7 @@ nav li a:hover {
 }
 .more-inf-2 {
     color: #000;
-    font-size: 18px;
+    font-size: 1.3em;
 }
 
 /***********BLOCK-9***********/
@@ -566,11 +566,12 @@ nav li a:hover {
 
 /***********BLOCK-10***********/
 
-
+.block10 {
+    background-color: #bd2631;
+}
 .galery {
     display: inline-block;
     width: 20%;
-    /*height: 423px;*/
     margin: 0;
     padding: 0;
     font-size: 0;
@@ -587,7 +588,6 @@ nav li a:hover {
     font-size: 1.13rem;
     line-height: 1.7rem;
     font-weight: bold;
-    background-color: #bd2631;
     color: #fff;
     margin-left: -2px;
     padding-top: 8.1%;
@@ -637,10 +637,7 @@ nav li a:hover {
     background-color: #242424;
     padding-top: 64px;
     padding-bottom: 15px;
-    /*padding-left: 10.6rem;*/
-    /*font-size: 0;*/
-    /*box-sizing: content-box;*/
-    /*margin-bottom: -1px;*/
+    margin-bottom: -1px;
 }
 .block12-child {
     float: left;
@@ -769,6 +766,9 @@ nav li a:hover {
     .button-1 {
         width: 130px;
     }
+    .galery-img {
+        height: 100%;
+    }
 }
 @media screen and (max-width: 934px) {
     .block3-1-2 {
@@ -791,19 +791,75 @@ nav li a:hover {
         float: none;
         width: 100%;
     }
+    .image-icon-image,
+    .image-icon-icon {
+        width: 50%;
+    }
+    .description {
+        font-size: 1.5em;
+    }
+    .galery {
+        width: 60%;
+        display: block;
+        float: none;
+        margin-right:20%;
+        margin-left: 20%;
+    }
+    .galery:first-child {
+        margin-top: 10%;
+    }
+
+    .explanation {
+        padding: 10% 0;
+        font-size: 2.43rem;
+    }
+    .block11 {
+        height: auto;
+    }
+    .block11 .emblem {
+        width: 27%;
+    }
+    .block12 div {
+        display: block;
+        float: none;
+        border: none;
+        width: 90%;
+    }
+    .block12-1 {
+        margin-left: 2.5%;
+        padding-right: 2.5%;
+    }
+    .block13 p {
+        float: none;
+        display: block;
+    }
 }
 @media screen and (max-width: 895px) {
-    .block3 {
-        height: 400px;
+    .navigation {
+        height: 68px;
+    }
+    nav li a:hover{
+        border: none;
     }
     .nav-bar {
         display: none;
     }
     .nav-bar li {
         float: none;
+        display: block;
+        background-color: #bd2631;
+        width: 100%;
+    }
+    .nav-bar li a {
+        font-size: 4em;
+        text-align: center;
     }
     .touch-menu {
         display: block;
+        font-size: 5em;
+    }
+    .block4 {
+        height:auto;
     }
     .block4-1-1 {
         font-size: 1.2em;
@@ -812,12 +868,33 @@ nav li a:hover {
         font-size: 0.9em;
     }
     .button-1 {
-        width: 49%;
+        width: 13%;
+    }
+    .block8 div {
+        float: none;
+
+    }
+    .block12-1-1 {
+        font-size: 1.79em;
+    }
+    .block12-1-2 {
+        font-size: 1.5em;
+    }
+    .block12-4-1 {
+        font-size: 1.4em;
+    }
+}
+@media screen and (max-width: 750px) {
+    .explanation {
+        font-size: 1.54rem;
     }
 }
 @media screen and (max-width: 480px) {
     .block3 {
         height: 200px;
+    }
+    .explanation {
+        font-size: 0.94rem;
     }
 }
 /*
