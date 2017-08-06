@@ -768,7 +768,7 @@ nav {
     }
     .navigation {
         font-size: 0.7em;
-        bottom: -94px;
+        bottom: -99px;
         padding: 0 7px 0 14px;
     }
     .block3 {
@@ -979,6 +979,7 @@ nav {
     .block6 img,
     .block7 img {
         height: 100%;
+        max-height: -webkit-fill-available;
     }
     .product,
     .block6 .product,
@@ -1070,6 +1071,14 @@ nav {
         font-size: 0.5em;
         height: 30px;
     }
+    .image-icon-image,
+    .image-icon-icon,
+    .block6 .image-icon-image,
+    .block6 .image-icon-icon,
+    .block7 .image-icon-image,
+    .block7 .image-icon-icon {
+        height: 173px;
+    }
 }
 @media screen and (max-width: 374px) {
     .block1 div {
@@ -1104,7 +1113,7 @@ nav {
         font-size: 1em;
     }
     .block9-2 {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
     .block12-1-2 {
         font-size: 0.8em;
