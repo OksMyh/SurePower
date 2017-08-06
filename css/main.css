@@ -169,6 +169,7 @@ header {
     bottom: -99px;
     left: 0;
     z-index: 1;
+    height: 70px;
 }
 nav {
     width: 80%;
@@ -501,7 +502,6 @@ nav {
 
 .block8 {
     width: 100%;
-    /*margin:auto;*/
     text-align: center;
 }
 .column8-1,
@@ -510,8 +510,11 @@ nav {
     float: left;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
-    width: 33.3%;
+    width: 33%;
     height: 463px;
+}
+.column8-2 {
+    width: 34%;
 }
 .safe,
 .green,
@@ -519,20 +522,36 @@ nav {
     width: 100%;
     position: relative;
     top: 50%;
-    margin:auto;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+}
+.safe {
+    margin: -9% auto;
+}
+.green {
+    margin: -2% auto;
+}
+.ready {
+    margin: -7.3% auto;
+}
+.information-image {
+    padding-left: 23%;
 }
 .more-inf-1 {
     color: #bd2631;
     font-size: 36px;
     font-weight: bold;
+    padding-left: 19%;
 }
 .more-inf-2 {
     color: #000;
     font-size: 1.3em;
+    margin: 0;
+    padding-left: 26.3%;
 }
-
+figure {
+    margin: 0;
+}
 /***********BLOCK-9***********/
 
 
