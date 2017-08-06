@@ -757,6 +757,9 @@ figure {
     .button-1 {
         width: 15%;
     }
+    .block13 {
+        padding: 0 0 0 2.7%;
+    }
 }
 @media screen and (max-width: 1051px) {
     body {
@@ -802,8 +805,19 @@ figure {
     .button-1 {
         width: 15%;
     }
+    .galery {
+        margin: 6% 10.4% 0 10.4%;
+        width: unset;
+    }
+    .galery:last-child {
+        padding-left: 25%;
+        margin-bottom: 6%;
+    }
     .galery-img {
         height: 100%;
+    }
+    .explanation {
+        padding-top: 18.1%;
     }
     .block12 div {
         display: block;
@@ -815,10 +829,14 @@ figure {
         margin-left: 2.5%;
         padding-right: 2.5%;
     }
+    .block13 {
+        padding: 0 0 0 2.7%;
+    }
     .block13 p {
         float: none;
         display: block;
     }
+
 }
 @media screen and (max-width: 934px) {
     .block3-1-2 {
