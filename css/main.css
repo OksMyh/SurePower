@@ -507,36 +507,59 @@ nav {
 .block8 {
     width: 100%;
     text-align: center;
+    margin-top: 56px;
+    margin-bottom: 74px;
 }
 .column8-1,
 .column8-2,
 .column8-3 {
     float: left;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
+    /*transform-style: preserve-3d;*/
+    /*-webkit-transform-style: preserve-3d;*/
     width: 33%;
-    height: 463px;
+    /*height: 463px;*/
 }
 .column8-2 {
     width: 34%;
+    margin-top: 14px;
+}
+.column8-3 {
+    margin-top: 5px;
 }
 .safe,
 .green,
 .ready {
     width: 100%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+    /*-webkit-transform: translateY(-50%);*/
 }
-.safe {
-    margin: -9% auto;
+.safe figure {
+    /*margin: -9% auto;*/
+    margin-top: -5px;
+}
+.safe figcaption {
+    margin-top: 24px;
 }
 .green {
-    margin: -2% auto;
+    margin-top: -1px;
+    /*margin: -2% auto;*/
+}
+.green figcaption {
+    margin-top: 9px;
+}
+.green p {
+    margin-top: 7px;
 }
 .ready {
-    margin: -7.3% auto;
+    /*margin: -7.3% auto;*/
+}
+.ready figcaption {
+    margin-top: 19px;
+}
+.ready p {
+    margin-top: 5px;
 }
 .information-image {
     padding-left: 23%;
