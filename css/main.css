@@ -175,6 +175,10 @@ nav {
     width: 80%;
     float: left;
 }
+.nav-bar {
+    display: block;
+    /*visibility: visible;*/
+}
 .nav-bar li {
     float: left;
     display: block;
@@ -917,10 +921,18 @@ figure {
     }
 }
 
+@media screen and (min-width: 896px) {
+    .nav-bar {
+        display: block!important;
+    }
+}
 @media screen and (max-width: 895px) {
     .navigation {
         opacity: 1;
         bottom: auto;
+    }
+    .nav-bar {
+        display: none;
     }
     .nav-bar li {
         float: none;
@@ -932,7 +944,7 @@ figure {
     .touch-menu {
         display: inline-block;
         width: 10%;
-        font-size:4em;
+        font-size: 3em;
     }
     .nav-bar li a:hover {
         border: none;
