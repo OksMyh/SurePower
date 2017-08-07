@@ -765,6 +765,8 @@ figure {
     .block1 div{
         display: block;
         float: none;
+        margin:  0 auto;
+        text-align: center;
     }
     .town {
         width: 190px;
