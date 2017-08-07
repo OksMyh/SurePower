@@ -915,6 +915,14 @@ figure {
     }
     .emblem img {
         min-width: 90px;
+        max-width: 25%;
+    }
+    .block11 .emblem {
+            width: 90%;
+          float: none;
+            text-align: center;
+           margin-left: 4.1%;
+            margin-right: 0;
     }
     .block12-child {
         height: unset;
@@ -1061,10 +1069,6 @@ figure {
     .ready {
         font-size: 0.8em;
     }
-    .block11 .emblem {
-        float: none;
-        margin: 0 auto;
-    }
     .block12-1-1 {
         font-size: 1.39em;
     }.block12-1-2 {
@@ -1086,9 +1090,6 @@ figure {
     .block7 .image-icon-image,
     .block7 .image-icon-icon {
         height: 193px;
-    }
-    .block11 .emblem {
-        margin: 0 38%;
     }
 }
 @media screen and (max-width: 480px) {
