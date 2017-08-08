@@ -622,9 +622,10 @@ figure {
     font-weight: bold;
     color: #fff;
     margin-left: -2px;
-    padding-top: 8.1%;
-    padding-right: 1%;
+    /*padding-top: 8.1%;*/
+    /*padding-right: 1%;*/
     height: 70px;
+    padding: 10% 0% 10% 3%;
 }
 
 
@@ -674,7 +675,7 @@ figure {
 .block12-child {
     float: left;
     width: 20%;
-    height: 274px;
+    /*height: 274px;*/
 }
 .block12-1,
 .block12-2,
@@ -752,7 +753,7 @@ figure {
 
 /**********RESPONSIVE**********/
 
-@media screen and (min-width: 1052px) and (max-width: 1158px) {
+@media screen  and (max-width: 1168px) {
     .block1 {
         padding-left: 15px;
         padding-right: 0;
@@ -766,15 +767,12 @@ figure {
     .galery-img {
         height: auto;
     }
-    .block13 {
-        padding: 0 0 0 2.7%;
+    .explanation {
+        font-size: 1rem;
     }
 }
 @media screen and (max-width: 1051px) {
-    body {
-        font-size: 1em;
-    }
-    .block1 div{
+      .block1 div{
         display: block;
         float: none;
         margin:  0 auto;
@@ -847,16 +845,6 @@ figure {
         margin: 2% auto;
         width: 60%;
     }
-    .block12 div {
-        display: block;
-        float: none;
-        border: none;
-        width: 90%;
-    }
-    .block12-1 {
-        margin-left: 2.5%;
-        padding-right: 2.5%;
-    }
     .block13 {
         padding: 0 0 0 2.7%;
     }
@@ -866,7 +854,7 @@ figure {
     }
 
 }
-@media screen and (max-width: 934px) {
+@media screen and (max-width: 984px) {
     .block3-1-2 {
         font-size: 30px;
     }
@@ -939,9 +927,19 @@ figure {
            margin-left: 4.1%;
             margin-right: 0;
     }
-    .block12-child {
-        height: unset;
+    .block12 div {
+    display: block;
+    float: none;
+    border: none;
+    width: 90%;
     }
+    .block12-1 {
+    margin-left: 2.5%;
+    padding-right: 2.5%;
+    }
+    /*.block12-child {*/
+        /*height: unset;*/
+    /*}*/
 }
 
 @media screen and (min-width: 896px) {
