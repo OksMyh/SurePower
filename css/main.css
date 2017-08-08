@@ -170,6 +170,8 @@ header {
     left: 0;
     z-index: 1;
     height: 70px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
 }
 nav {
     width: 80%;
@@ -206,14 +208,26 @@ nav {
     background-color: #000;
     float: left;
     display: none;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
 }
 .touch-menu a {
     float: left;
+    /*padding: 24%;*/
 }
 .search {
     width: 10%;
     float: right;
-    padding-top: 2%;
+    /*padding-top: 4%;*/
+    position: relative;
+    top: 50%;
+    margin: auto;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 
 /**********MAIN**********/
@@ -994,7 +1008,7 @@ figure {
         font-size: 1.79em;
     }
     .block12-1-2 {
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
     .block12-4-1 {
         font-size: 1.4em;
