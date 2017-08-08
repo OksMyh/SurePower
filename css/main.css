@@ -788,6 +788,23 @@ figure {
     .explanation {
         font-size: 1rem;
     }
+     .contact-inf {
+        font-size: 0.8em;
+    }
+    .town {
+        width: 128px;
+    }
+    .town__icon,
+    .phone__icon,
+    .address__icon {
+        font-size: 18px;
+    }
+    .social-icon {
+        font-size: 13px;
+    }
+    .social-icon ul li {
+        margin-left: 14px;
+    }
 }
 @media screen and (max-width: 1082px){
     .column8-1,
@@ -805,27 +822,28 @@ figure {
         width: 70%;
         margin: 0 auto;
     }
+
     /*.column8-2 {*/
     /*padding: 0;*/
     /*}*/
 }
 @media screen and (max-width: 1051px) {
     .contact-inf {
-        font-size: 0.8em;
+        /*font-size: 1.8em;*/
     }
     .town {
-        width: 128px;
+        width: 228px;
     }
     .town__icon,
     .phone__icon,
     .address__icon {
-        font-size: 18px;
+        font-size: 22px;
     }
     .social-icon {
-        font-size: 13px;
+        font-size: 22px;
     }
     .social-icon ul li {
-        margin-left: 14px;
+        margin-left: 18px;
     }
     .logo,
     .static {
@@ -949,18 +967,21 @@ figure {
         font-size: 1.5rem;
     }
     .block11 {
-        height: auto;
+    height: auto;
     }
-    .emblem img {
-        min-width: 90px;
-        max-width: 25%;
+    .block11 .full-img {
+        width: auto;
     }
     .block11 .emblem {
-            width: 90%;
-          float: none;
-            text-align: center;
-           margin-left: 4.1%;
-            margin-right: 0;
+        width: 40%;
+        margin: 0;
+        margin-left: 10%;
+    }
+    .block11 .emblem:last-child {
+        margin: 0 37%;
+    }
+    .emblem img {
+        min-width: auto;
     }
     .block12 div {
     display: block;
@@ -1142,7 +1163,7 @@ figure {
     .block5 img,
     .block6 img,
     .block7 img {
-        height: 100%;
+        height: auto;
         max-height: -webkit-fill-available;
     }
     .product,
@@ -1232,6 +1253,9 @@ figure {
         font-size: 0.5em;
         height: 30px;
     }
+    .block5 .product-image img {
+        height: 100%;
+    }
     .image-icon-image,
     .image-icon-icon,
     .block6 .image-icon-image,
@@ -1239,6 +1263,20 @@ figure {
     .block7 .image-icon-image,
     .block7 .image-icon-icon {
         height: 173px;
+    }
+    .emblem img {
+    min-width: 90px;
+    max-width: 25%;
+    }
+    .block11 .emblem {
+    width: 90%;
+    float: none;
+    text-align: center;
+    margin-left: 4.1%;
+    margin-right: 0;
+    }
+    .block11 .emblem:last-child {
+        margin: 0 auto;
     }
 }
 @media screen and (max-width: 391px) {
