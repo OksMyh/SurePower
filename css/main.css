@@ -784,6 +784,9 @@ figure {
     .button-1 {
         width: 15%;
     }
+    .galery-img {
+        height: auto;
+    }
     .block13 {
         padding: 0 0 0 2.7%;
     }
@@ -854,20 +857,16 @@ figure {
         max-width: 60%;
         height: auto;
     }
-    .galery {
-        margin: 6% 10.4% 0 10.4%;
-        /*margin: 6% 0% 0 3%;*/
-        width: unset;
-    }
-    .galery:last-child {
-        padding-left: 25%;
-        margin-bottom: 6%;
-    }
     .galery-img {
-        height: 100%;
+        height: auto;
+        width: 50%;
+        margin: 0 auto;
     }
-    .explanation {
-        padding-top: 18.1%;
+    .galery {
+        display: block;
+        float: none;
+        margin: 2% auto;
+        width: 60%;
     }
     .block12 div {
         display: block;
@@ -922,16 +921,7 @@ figure {
     .description {
         font-size: 1.5em;
     }
-    .galery {
-        width: 60%;
-        display: block;
-        float: none;
-        margin-right:20%;
-        margin-left: 20%;
-    }
-    .galery:first-child {
-        margin-top: 10%;
-    }
+    /*ful*/
     .column8-1,
     .column8-2,
     .column8-3 {
@@ -954,7 +944,7 @@ figure {
     }
     .explanation {
         padding: 10% 0;
-        font-size: 2.43rem;
+        font-size: 1.5rem;
     }
     .block11 {
         height: auto;
@@ -1035,7 +1025,7 @@ figure {
 }
 @media screen and (max-width: 750px) {
     .explanation {
-        font-size: 1.54rem;
+        font-size: 1.14rem;
     }
     .safe,
     .green,
@@ -1054,7 +1044,7 @@ figure {
         margin: -6.7% auto;
     }
     .block8 img {
-        max-width: 40%;
+        max-width: 32%;
         height: auto;
     }
     .more-inf-1 {
@@ -1150,7 +1140,7 @@ figure {
         height: 300px;
     }
     .explanation {
-        font-size: 0.94rem;
+        font-size: 0.9rem;
     }
     .block4-1-1 {
         font-size: 1em;
