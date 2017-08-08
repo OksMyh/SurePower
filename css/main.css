@@ -789,6 +789,26 @@ figure {
         font-size: 1rem;
     }
 }
+@media screen and (max-width: 1082px){
+    .column8-1,
+    .column8-2 {
+        width: 48%;
+        margin: 0 auto;
+        padding: 0 3% 0;
+    }
+    .column8-3 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5% 10% 0;
+    }
+    .ready {
+        width: 70%;
+        margin: 0 auto;
+    }
+    /*.column8-2 {*/
+    /*padding: 0;*/
+    /*}*/
+}
 @media screen and (max-width: 1051px) {
     .contact-inf {
         font-size: 0.8em;
@@ -838,15 +858,6 @@ figure {
     .button-1 {
         width: 15%;
     }
-    .block8 div {
-        float: none;
-        display: block;
-        width: 85%;
-        margin: 0 auto;
-    }
-    .column8-2 {
-        padding: 5% 0;
-    }
     .information-image {
         padding-left: 0;
     }
@@ -867,9 +878,13 @@ figure {
     }
     .galery {
         display: block;
-        float: none;
+        /*float: none;*/
         margin: 2% auto;
-        width: 60%;
+        width: 50%;
+    }
+
+    .galery:last-child {
+        margin-left: 23%;
     }
     .block13 {
         padding: 0 0 0 2.7%;
@@ -919,18 +934,6 @@ figure {
     }
     .description {
         font-size: 1.5em;
-    }
-    /*ful*/
-    .column8-1,
-    .column8-2,
-    .column8-3 {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .safe,
-    .green,
-    .ready {
-        width: 50%;
     }
     .more-inf-1 {
         font-size: 2.8em;
@@ -1031,6 +1034,35 @@ figure {
     .block12-4-1 {
         font-size: 1.4em;
     }
+}
+@media screen and (max-width: 834px) {
+    .column8-1,
+    .column8-2,
+    .column8-3 {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 5% 10% 0;
+    }
+    .safe,
+    .green,
+    .ready {
+    width: 100%;
+        margin: 0 auto;
+    }
+    /*.column8-2 {*/
+        /*padding: 5% 0;*/
+    /*}*/
+    /*.block8 div {*/
+    /*!*float: none;*!*/
+    /*display: block;*/
+    /*width: 85%;*/
+    /*margin: 0 auto;*/
+    /*}*/
+    /*.column8-2 {*/
+
+    /*}*/
 }
 @media screen and (max-width: 758px) {
     .block3-1-1,
@@ -1136,6 +1168,15 @@ figure {
     .green,
     .ready {
         font-size: 0.8em;
+    }
+    .galery {
+        float: none;
+    }
+    .galery:last-child {
+        margin-left: auto;
+    }
+    .galery-img {
+        width: 75%;
     }
     .block12-1-1 {
         font-size: 1.39em;
