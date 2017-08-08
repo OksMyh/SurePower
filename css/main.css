@@ -523,58 +523,37 @@ nav {
 .column8-2,
 .column8-3 {
     float: left;
-    width: 33%;
+    width: 33.3%;
+}
+.column8-1 {
+    padding-left: 45px;
 }
 .column8-2 {
-    width: 34%;
-    margin-top: 14px;
-}
-.column8-3 {
-     margin-top: 5px;
-     width: 30%;
-     margin-right: 3%;
- }
-.safe,
-.green,
-.ready {
-}
-.safe figure {
-    margin-top: -5px;
+    padding: 0 20px 0;
 }
 .safe figcaption {
-    margin-top: 24px;
+    margin-top: 3px;
 }
-.green {
-    margin-top: -1px;
+.column8-3 {
+    padding-right: 45px;
 }
 .green figcaption {
+    margin-top: 6px;
+}
+
+.ready figcaption {
     margin-top: 9px;
 }
-.green p {
-    margin-top: 7px;
-}
-.ready {
-}
-.ready figcaption {
-    margin-top: 19px;
-}
-.ready p {
-    margin-top: 5px;
-}
-.information-image {
-    padding-left: 23%;
-}
+
 .more-inf-1 {
     color: #bd2631;
     font-size: 36px;
     font-weight: bold;
-    padding-left: 19%;
 }
 .more-inf-2 {
     color: #000;
     font-size: 1.3em;
     margin: 0;
-    padding-left: 26.3%;
 }
 figure {
     margin: 0;
