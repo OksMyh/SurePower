@@ -399,6 +399,9 @@ nav {
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
 }
+.image-icon-icon img {
+    width:auto;
+}
 .child1 {
     width: 100%;
 }
@@ -439,12 +442,15 @@ nav {
 .block6 .image-icon-icon {
     width: 49.79%;
 }
+.block6 .image-icon-icon img {
+    width: auto;
+}
 .block6 .image-icon-image,
 .block6 .image-icon-icon {
     height: 450px;
 }
 .block6 .child2 {
-    width: 45%;
+    width: 50%;
     position: relative;
     top: 50%;
     margin: 1% auto;
@@ -491,8 +497,11 @@ nav {
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
 }
+.block7 .image-icon-icon img {
+    width: auto;
+}
 .block7 .child2 {
-    width: 34.2%;
+    width: 48.2%;
     position: relative;
     top: 50%;
     margin: -2.1% auto;
@@ -847,6 +856,7 @@ figure {
     }
     .galery {
         margin: 6% 10.4% 0 10.4%;
+        /*margin: 6% 0% 0 3%;*/
         width: unset;
     }
     .galery:last-child {
